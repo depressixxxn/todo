@@ -1,0 +1,38 @@
+.done {
+  background-color: lightgray;
+}
+
+span {
+  font-size: 1.2em;
+  padding: 0.5em;
+  word-break: break-all;
+}
+
+.todoIndicator {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#todosElement {
+  padding-left: 1em;
+  margin-bottom: 1em;
+  width: 100%;
+  border: 1px solid;
+}
+
+.removeButton {
+  display: none;
+  float: right;
+  height: 22px;
+  width: 16.6em;
+  border: 0px;
+  background: red;
+  color: white;
+  font-size: 0.8em;
+}
+
+#todosElement:hover button {
+  display: block;
+  position: static;
+}

@@ -1,0 +1,34 @@
+body {
+  margin: 10em 15em;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2em;
+}
+
+.todoSection {
+  width: 85%;
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+.todoList {
+  display: flex;
+  flex-direction: row;
+}
+
+.inputPosition {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 26px;
+}
+
+.saveButton {
+  border: 0px;
+  background-color: red;
+  color: white;
+  width: 15%;
+  height: 35px;
+  font-size: 1em;
+}
